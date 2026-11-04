@@ -1,5 +1,7 @@
 # Simple FPS dedicated servers on Edgegap
 
+![Add dedicated game servers to Photon Fusion 2's Simple FPS sample using Edgegap's kit for Unity.](docs/images/card.jpg)
+
 Run Photon's [Simple FPS Multiplayer (Photon Fusion)](https://assetstore.unity.com/packages/templates/tutorials/simple-fps-multiplayer-photon-fusion-272941) sample as a dedicated server on [Edgegap](https://edgegap.com), one deployment per match, close to the players. Players join from the sample's **Party** menu by typing the deployment's address and Photon region.
 
 Copy this kit into your Simple FPS project. It doesn't edit any Simple FPS or Fusion file, and it doesn't include any. You still get Simple FPS from the Unity Asset Store under your own licence.
