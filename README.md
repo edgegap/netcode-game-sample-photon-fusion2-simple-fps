@@ -25,7 +25,7 @@ Copy this kit into your Simple FPS project. It doesn't edit any Simple FPS or Fu
 
 - Simple FPS Multiplayer (Photon Fusion) from the Asset Store, imported into a new Unity project. It's a complete project: it brings its own Project Settings.
 - Unity 6000.3 with **Linux Dedicated Server Build Support** and **Linux Build Support (IL2CPP)**. For clients, add **Windows Build Support (IL2CPP)**, which needs Visual Studio's C++ workload.
-- The server must use **IL2CPP**, the sample's default. To build Linux IL2CPP on Windows, add these packages in **Window > Package Manager > + > Add package by name**: `com.unity.toolchain.win-x86_64-linux` and `com.unity.sdk.linux-x86_64`.
+- The server must use **IL2CPP**, the sample's default. To build Linux IL2CPP on Windows, add these packages at version **1.1.0** in **Window > Package Manager > + > Add package by name**: `com.unity.toolchain.win-x86_64-linux` and `com.unity.sdk.linux-x86_64` (type `com.unity.toolchain.win-x86_64-linux@1.1.0`). Version 1.1.1 fails the build with `No Linux sysroot found for x64`.
 - A Photon Fusion App ID from the [Photon dashboard](https://dashboard.photonengine.com).
 - An Edgegap account, and Docker Desktop.
 
